@@ -1,0 +1,47 @@
+[debug] [2017-09-27T20:34:09.268Z] ----------------------------------------------------------------------
+[debug] [2017-09-27T20:34:09.270Z] Command:       /usr/bin/node /usr/bin/firebase init
+[debug] [2017-09-27T20:34:09.270Z] CLI Version:   3.12.0
+[debug] [2017-09-27T20:34:09.270Z] Platform:      linux
+[debug] [2017-09-27T20:34:09.270Z] Node Version:  v8.5.0
+[debug] [2017-09-27T20:34:09.270Z] Time:          Wed Sep 27 2017 16:34:09 GMT-0400 (EDT)
+[debug] [2017-09-27T20:34:09.270Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-27T20:34:09.278Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-09-27T20:34:09.278Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/shadowx/Documents/dev/AWS/test
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-09-27T20:34:13.879Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-27T20:34:13.880Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/-h0xJhzunyqd0znmVYshqaDWWR7FxENPAXx-bgC_Hv8',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Sep 27 2017 16:34:13 GMT-0400 (EDT)
+[debug] [2017-09-27T20:34:14.581Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-27T20:34:14.649Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Wed Sep 27 2017 16:34:14 GMT-0400 (EDT)
+[debug] [2017-09-27T20:34:15.519Z] <<< HTTP RESPONSE 200
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
